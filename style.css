@@ -7,7 +7,33 @@
     /* outline: 1px solid limegreen;
     background: rgba(0, 100, 0, 0.05); */
 }
+.round-btn{
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    border-radius: 41px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.box-btn{
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.round-btn:hover, .box-btn:hover{
+    color: #E02C6D;
 
+    border: 1px solid #E02C6D;
+    background-color: #FFFFFF;
+}
 
 
     /* Header nav styles */
@@ -49,6 +75,31 @@
     border-bottom: 2px solid #565657a9;
 }
 
+    /* Header banner styles */
+#header .header-banner{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 10px 0 100px 0;
+}
+#header .banner-contents .banner-tittle{
+    font-size: 42px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+#header .banner-contents .banner-desc{
+    font-weight: 600;
+    line-height: 24px;
+    color: #3A3A3A;
+    margin: 15px 0;
+}
+#header .header-banner .banner-img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0px;
+}
 
 
                     /* Responsive design */
