@@ -1,5 +1,49 @@
+/* Pre styles */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
+    /* outline: 1px solid limegreen;
+    background: rgba(0, 100, 0, 0.05); */
+}
+
+
+    /* Header styles */
+#header{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+#header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+#header .nav .nav-logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+#header .nav .menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#header .nav .menu li, li img{
+    list-style-type: none;
+    cursor: pointer;
+}
+#header .nav .menu li a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+
+    font-weight: 600;
+    color: #3A3A3A;
+}
+#header .nav .menu li a:hover{
+    border-top: 2px solid #8d8d8f9a;
+    border-bottom: 2px solid #565657a9;
 }
