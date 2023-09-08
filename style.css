@@ -9,7 +9,8 @@
 }
 
 
-    /* Header styles */
+
+    /* Header nav styles */
 #header{
     max-width: 1020px;
     margin: 0 auto;
@@ -46,4 +47,43 @@
 #header .nav .menu li a:hover{
     border-top: 2px solid #8d8d8f9a;
     border-bottom: 2px solid #565657a9;
+}
+
+
+
+                    /* Responsive design */
+/* For small mobiles */
+@media screen and (max-width: 320px) {
+            /* header nav styles */
+    #header .nav{
+        flex-direction: column;
+    }
+    #header .nav .menu{
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+}
+/* For medium mobiles */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+            /* header nav styles */
+    #header .nav{
+        flex-direction: column;
+    }
+    #header .nav .menu{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+/* For large mobiles */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+            /* header nav styles */
+    #header .nav{
+        flex-direction: column;
+    }
+    #header .nav .menu{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
