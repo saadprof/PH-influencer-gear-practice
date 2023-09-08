@@ -74,7 +74,6 @@
     border-top: 2px solid #8d8d8f9a;
     border-bottom: 2px solid #565657a9;
 }
-
     /* Header banner styles */
 #header .header-banner{
     display: flex;
@@ -102,6 +101,22 @@
     padding: 10px 0px;
 }
 
+
+        /* Main part styles */
+    /* shops styles */
+#main{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+#main .shops{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 20px 0px;
+    border-top: 2px solid #d1cece6c;
+    border-bottom: 2px solid #d1cece6c;
+}
 
                     /* Responsive design */
 /* For small mobiles */
