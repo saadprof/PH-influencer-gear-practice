@@ -119,6 +119,58 @@
     border-bottom: 2px solid #d1cece6c;
 }
 
+    /* Popular collections */
+#main .collections{
+    margin-bottom: 100px;
+}
+#main .collections .collections-tittle{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+#main .collections .collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+#main .collections .collection-container .collection{
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+}
+#main .collections .collection-container .collection img{
+    width: 100%;
+}
+#main .collections .collection .collection-tittle{
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+}
+#main .collections .collection .collection-price{
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000be;
+}
+#main .collections .collection .rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#main .collections .collection .additional{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #787885;
+}
+#main .collections .more-collection, a{
+    margin-top: 30px;
+    padding: 5px;
+    text-align: right;
+    text-decoration: none;
+    color: #E02C6D;
+}
+
                     /* Responsive design */
 /* For small mobiles */
 @media screen and (max-width: 320px) {
