@@ -281,6 +281,12 @@
     #main .featured .featured-img img{
         width: 100%;
     }
+
+
+            /* Footer part styles */
+    #footer .footer-contents{
+        width: 100%;
+    }
 }
 /* For medium mobiles */
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -327,6 +333,11 @@
         font-size: 1.75rem;
     }
     #main .featured .featured-img img{
+        width: 100%;
+    }
+
+            /* Footer part styles */
+    #footer .footer-contents{
         width: 100%;
     }
 }
@@ -378,6 +389,11 @@
         font-size: 1.75rem;
     }
     #main .featured .featured-img img{
+        width: 100%;
+    }
+
+            /* Footer part styles */
+    #footer .footer-contents{
         width: 100%;
     }
 }
