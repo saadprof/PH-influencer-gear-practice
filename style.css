@@ -175,6 +175,34 @@
     border-bottom: 2px solid #E02C6D;
 }
 
+    /* Featured products section */
+#main .featured{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 0px 0.75rem;
+    margin-bottom: 6.25rem;
+}
+#main .featured .featured-img{
+    width: 100%;
+}
+#main .featured .featured-contents .featured-tittle{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #0A0826;
+}
+#main .featured .featured-contents .featured-desc{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #6C6C6C;
+    margin: 1rem 0rem;
+}
+
+
+
+
+
                     /* Responsive design */
 /* For small mobiles */
 @media screen and (max-width: 320px) {
@@ -209,6 +237,7 @@
     #main .collections .collection-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 /* For medium mobiles */
 @media screen and (min-width: 321px) and (max-width: 375px) {
