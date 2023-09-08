@@ -122,6 +122,7 @@
     /* Popular collections */
 #main .collections{
     margin-bottom: 100px;
+    padding: 0px 10px;
 }
 #main .collections .collections-tittle{
     text-align: center;
@@ -170,6 +171,9 @@
     text-decoration: none;
     color: #E02C6D;
 }
+#main .collections a:hover{
+    border-bottom: 2px solid #E02C6D;
+}
 
                     /* Responsive design */
 /* For small mobiles */
@@ -200,6 +204,11 @@
         flex-wrap: wrap;
         gap: 25px;
     }
+
+            /* Popular collections */
+    #main .collections .collection-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 /* For medium mobiles */
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -229,6 +238,11 @@
     #main .shops{
         flex-wrap: wrap;
         gap: 25px;
+    }
+    
+            /* Popular collections */
+    #main .collections .collection-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 /* For large mobiles */
@@ -262,5 +276,10 @@
     #main .shops{
         flex-wrap: wrap;
         gap: 25px;
+    }
+
+            /* Popular collections */
+    #main .collections .collection-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
