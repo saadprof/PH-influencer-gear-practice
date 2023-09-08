@@ -202,7 +202,37 @@
 }
 
 
-
+    /* Footer part */
+#footer{
+    background-color: #0A0826;
+}
+#footer .footer-contents{
+    width: 30%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    text-align: center;
+}
+#footer .footer-contents .footer-tittle{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+#footer .footer-contents .copyright{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #D9DBE1;
+    margin-top: 0.75rem;
+}
+#footer .footer-contents .social-links{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#footer .footer-contents .social-links li{
+    list-style-type: none;
+}
 
 
                     /* Responsive design */
